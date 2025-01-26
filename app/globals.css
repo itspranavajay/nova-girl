@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-pink-100 to-purple-100;
+  }
+}
+
+@layer utilities {
+  .font-dancing {
+    font-family: "Dancing Script", cursive;
+  }
+}
+
